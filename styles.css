@@ -1,0 +1,39 @@
+body {
+background-color: #284B63;
+margin: 0;
+width: 100vw;
+height: 100vh;
+font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  background-color: #fafaff;
+  color: #353535;
+  height: 5%;
+  padding-right: 1%;
+  }
+
+.nav-bar {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2%;
+}
+
+.header {
+  color: #fafaff;
+}
+
+.title-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.aaron {
+  font-size: 80px;
+}
+
+.title {
+font-size: 30px;
+}
