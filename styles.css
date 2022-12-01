@@ -1,9 +1,11 @@
 body {
-background-color: #284B63;
-margin: 0;
-width: 100vw;
-height: 100vh;
-font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: #284B63; */
+background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 }
 
 nav {
@@ -31,9 +33,9 @@ nav {
 }
 
 .aaron {
-  font-size: 80px;
+  font-size: 120px;
 }
 
 .title {
-font-size: 30px;
+font-size: 40px;
 }
