@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 544.98 187.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2b2b2b;
+        font-family: Rollbox-ExtraBoldItalic, Rollbox;
+        font-size: 83.38px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.03em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-1" transform="translate(0 70.87)"><tspan x="0" y="0">AARON</tspan><tspan class="cls-2" x="0" y="100.06">S</tspan><tspan x="74.04" y="100.06">ANCHEZ</tspan></text>
+  </g>
+</svg>
