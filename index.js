@@ -1,4 +1,4 @@
-console.log('Hello World ')
+console.log('hello')
 
 const projects = [
   {
@@ -11,3 +11,13 @@ const projects = [
     name: 'Hogwarts Admin System'
   }
 ]
+
+let projectsDisplay = document.querySelector('.projects-wrapper')
+
+projects.forEach((project) => {
+  let div = document.createElement('div')
+  let heading = document.createElement('h2')
+  projectsDisplay.appendChild(div)
+  div.appendChild(heading)
+  heading.innerHTML = `${project.name}`
+})
