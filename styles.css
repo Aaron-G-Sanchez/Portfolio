@@ -8,6 +8,9 @@
   100% {opacity: 1;}
 }
 
+
+/* GENERAL  */
+
 body {
   margin: 0;
   width: 100vw;
@@ -50,6 +53,9 @@ a:hover {
   text-decoration: underline;
 }
 
+/* HOME LANDING  */
+
+
 .title-wrapper{
 display: flex;
 align-items: center;
@@ -70,6 +76,17 @@ background-color: #8BC6EC;
 background-image: linear-gradient(135deg, #94c5e5 0%, #DFAEB4 100%);
 }
 
+/* ABOUT PAGE  */
+
 .about-page {
-height: 100%;
+height: 94%;
+width: 100%;
+}
+
+
+/* PROJECTS PAGE  */
+
+.projects-page {
+  height: 94%;
+  width: 100%;
 }
