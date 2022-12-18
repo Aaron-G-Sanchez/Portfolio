@@ -124,6 +124,22 @@ justify-content: center;
 }
 
 
+.show-resume {
+  margin-top: 5%;
+  width: 15%;
+  background-color: var(--white);
+  color: var(--black);
+  border: none;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.show-resume:hover {
+  width: 17%;
+  background-color: var(--dark-blue);
+  color: white;
+}
+
 
 /* PROJECTS PAGE  */
 
