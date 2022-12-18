@@ -32,6 +32,12 @@ projects.forEach((project) => {
   projectsDisplay.appendChild(div)
   div.className = 'project-container'
   div.appendChild(heading)
+
+  div.addEventListener('click', (e) => {
+    e.preventDefault()
+    window.open(`${project.link}`)
+  })
+
   div.appendChild(descriptionContainer)
   descriptionContainer.appendChild(description)
   descriptionContainer.className = 'project-description'
