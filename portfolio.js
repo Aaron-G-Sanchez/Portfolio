@@ -1,5 +1,3 @@
-console.log('hello')
-
 const projects = [
   {
     name: 'Sines Ear Trainer',
@@ -23,8 +21,6 @@ const projects = [
 
 let projectsDisplay = document.querySelector('.projects-wrapper')
 
-let resumeButton = document.querySelector('.show-resume')
-
 projects.forEach((project) => {
   let div = document.createElement('div')
   let heading = document.createElement('h2')
@@ -45,9 +41,4 @@ projects.forEach((project) => {
   descriptionContainer.className = 'project-description'
   heading.innerHTML = `${project.name}`
   description.innerHTML = `${project.description}`
-})
-
-resumeButton.addEventListener('click', (e) => {
-  e.preventDefault()
-  console.log('resume button clicked')
 })
