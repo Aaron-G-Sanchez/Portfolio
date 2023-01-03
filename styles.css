@@ -75,6 +75,10 @@ width: 80%;
 height: 300px;
 }
 
+.title {
+  color: var(--white);
+}
+
 .landing {
 height: 94%;
 width: 100%;
